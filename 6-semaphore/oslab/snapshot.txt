@@ -1,0 +1,25 @@
+q.c:20: warning: return of pointer from integer lacks a cast
+q.c: In function main:
+q.c:56: warning: argument passing between incompatible pointer types
+q.c:81: warning: argument passing between incompatible pointer types
+q.c:90: warning: argument passing between incompatible pointer types
+q.c:94: warning: argument passing between incompatible pointer types
+q.c:98: warning: argument passing between incompatible pointer types
+q.c:102: warning: argument passing between incompatible pointer types
+q.c:143: warning: argument passing between incompatible pointer types
+q.c:147: warning: argument passing between incompatible pointer types
+q.c:154: warning: argument passing between incompatible pointer types
+q.c:158: warning: argument passing between incompatible pointer types
+q.c:164: warning: argument passing between incompatible pointer types
+q.c:167: warning: argument passing between incompatible pointer types
+kernelName = [ empty ], nihao = NULL,fuck
+ sem name =
+NULL,NULL,NULL,NULL,NULL
+sem  =
+114944,114968,114992,115016,115040
+will creat [ empty ] sem  ,value = 9 // 114944 : [  ] value = 9
+will creat [ full ] sem  ,value = 0 // 114944 : [  ] value = 0
+will creat [ mutex ] sem  ,value = 1 // 114944 : [  ] value = 1
+fd = 3
+i = 0
+ß
