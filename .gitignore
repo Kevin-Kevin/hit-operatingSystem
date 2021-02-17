@@ -1,0 +1,11 @@
+# OS generated files #
+######################
+.DS_Store
+
+# VS Code files #
+#################
+.vscode
+
+# binary file #
+###############
+.exe
