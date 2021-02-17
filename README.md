@@ -1,7 +1,6 @@
 哈工大操作系统试验（蓝桥）
-- 差最后一个实验没有做
-- 这个月内找时间完成
-- 相关资料在 resource 里面
+- TODO : 差最后一个实验没有做
+- 相关资料在 [resource](https://github.com/Kevin-Kevin/hit-operatingSystem/tree/master/resource) 里面
     - 一些脚本文件是用于实验结果的测试
     - hit-oslab-linux-20110823.tar.gz 是 oslab 实验平台压缩包
     - gcc-3.4 用于编译 linux-0.11
