@@ -9,3 +9,5 @@
 # binary file #
 ###############
 .exe
+
+.gitignore
