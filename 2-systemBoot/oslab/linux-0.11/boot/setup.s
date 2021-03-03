@@ -15,7 +15,7 @@ _start:
     mov es,ax
     mov ax,#0x1301
     int 0x10
-mov ax,cs
+    mov ax,cs
     mov es,ax
 ! init ss:sp
     mov ax,#INITSEG

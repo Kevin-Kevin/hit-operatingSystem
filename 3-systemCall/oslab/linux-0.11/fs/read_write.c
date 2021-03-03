@@ -76,6 +76,12 @@ int sys_read(unsigned int fd,char * buf,int count)
 			return 0;
 		return file_read(inode,file,buf,count);
 	}
+// change by kevin
+
+	if (S_ISPROC(inode->i_mode)) {
+		return proc_read(inode->i_zone[0], buf, count, &file->f_pos);	
+	}
+// changes end
 	printk("(Read)inode->i_mode=%06o\n\r",inode->i_mode);
 	return -EINVAL;
 }

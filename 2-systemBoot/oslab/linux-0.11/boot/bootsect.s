@@ -27,7 +27,7 @@ ok_load_setup:
     jmpi    0,SETUPSEG
 msg1:
     .byte   13,10
-    .ascii  "Hello OS world, my name is LZJ"
+    .ascii  "Hello OS world, my name is ZKL"
     .byte   13,10,13,10
 .org 510
 boot_flag:

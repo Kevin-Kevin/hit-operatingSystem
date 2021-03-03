@@ -7,6 +7,13 @@
 #define __LIBRARY__
 #include <unistd.h>
 #include <time.h>
+// change here by kevin
+
+_syscall2(int, mkdir, const char*, name, mode_t, mode)
+_syscall3(int, mknod, const char*, filename, mode_t, mode, dev_t, dev)
+
+// changes end
+
 
 /*
  * we need this inline - forking from kernel space will result
@@ -170,6 +177,19 @@ void init(void)
 	int pid,i;
 
 	setup((void *) &drive_info);
+// change here by kevin
+
+	mkdir("/proc", 0755);
+	// mkdnod thirdth parameter:
+	// 0 : psinfo
+	// 1 : meminfo
+	// 2 : cpuinfo
+	mknod("/proc/psinfo", S_IFPROC|0444, 0);
+//	mknod("/proc/meminfo", S_IFPROC|0444, 1);
+//	mknod("/proc/cpuinfo", S_IFPROC|0444, 2);
+
+// changes end
+
 	(void) open("/dev/tty0",O_RDWR,0);
 	(void) dup(0);
 	(void) dup(0);
