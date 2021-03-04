@@ -47,7 +47,7 @@ linux 基础常用的几个命令, ls , cd , vi , cp , mv ...
 
 ### 这是实验指导书和我做的笔记 
 
-📖 : [onenote 笔记](https://1drv.ms/u/s!AlpUsRdIUoE-i0W_HSsWMRTc1xOf)  ( 如果打不开就看蓝桥的实验指导书也可以)
+📖 : [onenote 笔记pdf](https://github.com/Kevin-Kevin/hit-operatingSystem/blob/master/resource/hit-%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F%E5%AE%9E%E9%AA%8C%E6%8C%87%E5%AF%BC%E4%B9%A6.pdf)  ( 如果打不开就看蓝桥的实验指导书也可以)
 
 CSDN : [操作系统博客专栏](https://blog.csdn.net/weixin_43987915/category_10331305.html?spm=1001.2014.3001.5482)
 
@@ -63,6 +63,7 @@ CSDN : [操作系统博客专栏](https://blog.csdn.net/weixin_43987915/category
   - gcc-3.4 用于编译 linux-0.11
   - pdf 是相关书籍
   - 哈工大的操作系统课程有李治军老师自己出的一本书《操作系统原理、实现与实践》，我是淘宝买了这本书方便学习
+  - 实验指导书是从蓝桥上面复制的, 后面是我做实验时候的一些思路以及一些问题的答案
 - 实验指导书（蓝桥）：https://www.lanqiao.cn/mobile/courses/115/learning?id=569
 - 哈工大师兄实验指导书：https://hoverwinter.gitbooks.io/hit-oslab-manual/content/index.html
 - MOOC 课程（B站也有）：https://www.icourse163.org/learn/HIT-1002531008?tid=1450346461#/learn/content
