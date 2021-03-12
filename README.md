@@ -36,6 +36,8 @@ linux 基础常用的几个命令, ls , cd , vi , cp , mv ...
 链接: https://pan.baidu.com/s/1kCq6bzSC0ckGVBP54sGiyw  
 密码: 7doh
 
+**解压缩的时候全部放到同一个文件夹 , 用 7-zip 解压 001 压缩文件**
+
 **Ubuntu 系统密码 : kevin**
 
 > 这是我自己用的虚拟机环境, Ubuntu 16.04 32位 , 已经配置好了
